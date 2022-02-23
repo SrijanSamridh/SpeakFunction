@@ -1,10 +1,10 @@
 
 
-from os improt system
+from os import system
 
 def speak(Audio):
   print(f": {Audio}")
-  system("say {}".formst(Audio))
+  system("say {}".format(Audio))
   
   
   
